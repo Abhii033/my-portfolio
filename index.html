@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijit Kale | Web Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Abhijit Kale, Web Developer and Computer Science Student.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <!--<a href="#" class="logo">AK<span>.</span></a>-->
+            <a href="#home" class="logo">
+    <img src="logo.png" alt="Abhijit Kale Logo">
+</a>
+
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <div class="mobile-toggle" aria-label="Toggle Mobile Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hello, world!</p>
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Abhijit Kale</span></h1>
+                    <h2 class="hero-subtitle"><span class="typing-text"></span></h2>
+                    <p class="hero-desc">
+                        A passionate Computer Science student and web developer focusing on building robust, scalable, and visually appealing web applications.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="software.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-file-arrow-down"></i> Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                       <a href="https://github.com/[YOUR-GITHUB]" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:kaleabhijit833@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image reveal-right">
+                    <div class="img-box">
+                        
+                        <img src="profile.png" alt="Abhijit Kale" onerror="this.src='https://placehold.co/400x400?text=Profile+Photo'">
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down" aria-label="Scroll Down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-container reveal">
+                    <div class="about-text">
+                        <p>
+                            I'm a dedicated Computer Science student with a strong passion for web development and software engineering. I enjoy taking complex problems and turning them into simple, beautiful, and intuitive interface designs and functional backends.
+                        </p>
+                        <p>
+                            Currently pursuing my MSc in Computer Science after completing my BSc, I'm actively applying my academic knowledge in a real-world setting as a Web Development Intern at Saiket Systems. My journey in tech is driven by continuous learning and a desire to build solutions that make a positive impact.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3>MSc & BSc</h3>
+                                <p>Computer Science</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>Web Dev Intern</h3>
+                                <p>Saiket Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section bg-alt">
+            <div class="container">
+                <h2 class="section-title reveal">Technical Skills</h2>
+                <div class="skills-container">
+                    
+                    <div class="skill-category reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Frontend</h3>
+                        <ul class="skill-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category reveal" style="transition-delay: 100ms;">
+                        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3>Backend</h3>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Django</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category reveal" style="transition-delay: 200ms;">
+                        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3>Database</h3>
+                        <ul class="skill-list">
+                            <li>SQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category reveal" style="transition-delay: 300ms;">
+                        <div class="skill-icon"><i class="fa-solid fa-toolbox"></i></div>
+                        <h3>Tools & Tech</h3>
+                        <ul class="skill-list">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+<section id="projects" class="projects section">
+    <div class="container">
+
+        <h2 class="section-title reveal">My Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card reveal">
+
+                <div class="project-img-wrapper">
+                    <img src="agri.png"
+                         alt="Smart Agri Marketplace"
+                         onerror="this.src='https://placehold.co/600x400?text=Smart+Agri+Marketplace'">
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>ASP.NET</span>
+                        <span>SQL Server</span>
+                        <span>JS</span>
+                    </div>
+
+                    <h3>Smart Agri Marketplace</h3>
+
+                    <p>
+                        A web-based platform connecting farmers with agricultural
+                        shops. It allows farmers to explore seeds and fertilizers,
+                        view prices, and access consultation services.
+                    </p>
+
+                    <ul class="project-features">
+                        <li><i class="fa-solid fa-check"></i> Product exploration & discounts</li>
+                        <li><i class="fa-solid fa-check"></i> Integrated consultation system</li>
+                    </ul>
+
+                    <div class="project-links">
+                        <a href="https://github.com/[YOUR-GITHUB]/agri-marketplace"
+                           class="btn btn-sm btn-outline"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+           
+
+            <!-- Project 3 -->
+            <div class="project-card reveal" style="transition-delay: 200ms;">
+
+                <div class="project-img-wrapper">
+                    <img src="trading.png"
+                         alt="Trading Journal"
+                         onerror="this.src='https://placehold.co/600x400?text=Trading+Journal'">
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <h3>Trading Journal</h3>
+
+                    <p>
+                        A web application concept for recording and analyzing
+                        trading activities to help traders track their performance,
+                        risk/reward, and journal notes over time.
+                    </p>
+
+                    <ul class="project-features">
+                        <li><i class="fa-solid fa-check"></i> Profit/loss & risk tracking</li>
+                        <li><i class="fa-solid fa-check"></i> Detailed trade records</li>
+                    </ul>
+
+                    <div class="project-links">
+                        <a href="https://github.com/[YOUR-GITHUB]/trading-journal"
+                           class="btn btn-sm btn-outline"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="timeline-section section bg-alt">
+            <div class="container">
+                <div class="timeline-grid">
+                    
+                    <!-- Experience -->
+                    <div class="timeline-col reveal">
+                        <h2 class="section-title left-align">Experience</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Current</div>
+                                <h3>Web Development Intern</h3>
+                                <h4>Saiket Systems</h4>
+                                <p>Working on modern web development tasks, creating responsive user interfaces, and collaborating with the team to deliver high-quality software solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="timeline-col reveal" style="transition-delay: 150ms;">
+                        <h2 class="section-title left-align">Education</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Present</div>
+                                <h3>MSc Computer Science</h3>
+                                <h4>Indira University</h4>
+                                <p>Focusing on advanced computing concepts, software engineering, and modern application development.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Graduated 2025</div>
+                                <h3>BSc Computer Science</h3>
+                                <h4>Savitribaiphule Pune University</h4>
+                                <p>Built a strong foundation in programming, data structures, algorithms, and database management.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">12TH</div>
+                                <h3>12TH Science </h3>
+                                <h4>Savitribaiphule Pune University</h4>
+                                <p>Built a strong foundation in mathematics, science, logical reasoning, and problem-solving skills.
+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section bg-alt">
+            <div class="container">
+                <h2 class="section-title reveal">Get In Touch</h2>
+                <div class="contact-container">
+                    
+                    <div class="contact-info reveal">
+                        <h3>Let's Connect</h3>
+                        <p>I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:kaleabhijit833@gmail.com">kaleabhijit833@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/www.linkedin.com/in/kale-abhijit" target="_blank">linkedin.com/in/www.linkedin.com/in/kale-abhijit
+
+</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-brands fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/Abhii033" target="_blank">github.com/Abhii033</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper reveal" style="transition-delay: 150ms;">
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                                <span class="error-msg">Please enter your name.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                <span class="error-msg">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                                <span class="error-msg">Please enter a subject.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Hello, I'd like to talk about..."></textarea>
+                                <span class="error-msg">Please enter your message.</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <p class="form-note">* This is a frontend-only form for demonstration purposes.</p>
+                            <div class="success-msg" id="successMsg">Message successfully sent! (Simulated)</div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                         <a href="#home" class="logo">
+    <img src="logo.png" alt="Abhijit Kale Logo">
+</a>
+                <p class="footer-text">Designed & Built by Abhijit Kale</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Abhii033" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/www.linkedin.com/in/kale-abhijit" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Abhijit Kale. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
